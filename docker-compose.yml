@@ -1,0 +1,8 @@
+version: "3.4"
+services:
+  webapp:
+    build:
+      context: https://github.com/GyuTaeBae0407/Classfication-algorithm
+      dockerfile: Dockerfile-alternate
+      args:
+        buildno: 1
