@@ -1,6 +1,6 @@
 FROM jupyter/datascience-notebook
 
-COPY . .
+COPY . ./app
 
 RUN pip install -r requirements.txt
 EXPOSE 8888
